@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+   
+}
+.container{
+    border: 0px black solid;
+    width: 40%;
+    margin: 50px auto;
+   
+    padding: 48px 48px;
+   
+}
+form{
+    
+    width: 70%;
+    border: 1px black solid;
+    margin: 0 auto;
+    background-color: black;
+    padding: 40px 16px;
+    border-radius: 12px;
+}
+
+.display{
+    width: 100%;
+    
+    height: auto;
+}
+
+
+input[type='number']{
+    width: 100%;
+    padding: 32px 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    border-radius: 7px;
+    border: none;
+    color: black;
+}
+
+.input{
+   
+    width: 100%;
+}
+
+
+.one{
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+  
+ 
+    
+}
+.two{
+    width: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+    
+}
+.three{
+    width: 100%;
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+    
+}
+.four{
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: 1.5fr 0.75fr 0.75fr;
+
+
+    gap: 12px;
+    margin-bottom: 8px;
+    
+}
+
+button{
+    padding: 24px 24px;
+    border: none;
+    border-radius: 1000%;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color:#595858 ;
+   
+}
+
+.zerol button{
+    width: 100%;
+    border-radius: 35px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.yellow {
+    background-color: orange;
+}
+@media screen and (max-width:412px) {
+    
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    
+    form{
+        width: 100%;
+        height: auto;
+    }
+}
